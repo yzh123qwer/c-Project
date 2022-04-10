@@ -4,6 +4,7 @@ bash和sh：sh为早起的脚本执行命令，bash可以被视为一个功能�
 在脚本文件中第一行通常写为#!/bin/bash，注意仅能写在第一行，告诉系统该脚本又bash来解释执行。<br>
 shell脚本的一些流程控制语句，if、for、while、case。<br>
 makefile文件的编写。<br>
+make执行编译指令的条件是根据目标文件和所依赖文件的最后修改日期进行判断的。<br>
 make命令执行，make命令让系统寻找当前目录下makefile\Makefile文件，能够快速执行已经预先写好的编译命令。
 ## 用户身份与文件权限的基础概念
 Linux用户分为管理员用户(root，uid为0)、系统用户(uid为1-999)、普通用户(uid>1000)。<br>
